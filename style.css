@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  border: 20px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+.item-1 {
+  height: 200px;
+  background: rgb(39, 61, 134);
+  order: 0;
+  flex: 1 1 300px;
+}
+.item-2 {
+  height: 200px;
+  background: red;
+  order: 0;
+  flex: 1 1 300px;
+}
+.item-3 {
+  height: 200px;
+  background: rgb(149, 43, 140);
+  order: 0;
+  flex: 1 1 300px;
+}
+.item-4 {
+  height: 200px;
+  background: green;
+  order: 0;
+  flex: 1 1 300px;
+}
+h1 {
+  color: white;
+  font-family: sans-serif;
+}
